@@ -34,6 +34,7 @@
     <Compile Include="common\models\coffee-shop.js" />
     <Compile Include="common\models\message.js" />
     <Compile Include="server\boot\authentication.js" />
+    <Compile Include="server\boot\create-sample-models.js" />
     <Compile Include="server\boot\root.js" />
     <Compile Include="server\server.js" />
     <Content Include="client\README.md" />
