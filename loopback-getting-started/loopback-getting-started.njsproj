@@ -34,6 +34,7 @@
     <Compile Include="common\models\coffee-shop.js" />
     <Compile Include="common\models\message.js" />
     <Compile Include="common\models\review.js" />
+    <Compile Include="common\models\reviewer.js" />
     <Compile Include="server\boot\authentication.js" />
     <Compile Include="server\boot\create-sample-models.js" />
     <Compile Include="server\boot\root.js_no_use" />
@@ -44,6 +45,7 @@
     <Content Include="common\models\coffee-shop.json" />
     <Content Include="common\models\message.json" />
     <Content Include="common\models\review.json" />
+    <Content Include="common\models\reviewer.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="server\component-config.json" />
