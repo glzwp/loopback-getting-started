@@ -31,6 +31,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="client\js\services\lb-services.js" />
     <Compile Include="common\models\coffee-shop.js" />
     <Compile Include="common\models\message.js" />
     <Compile Include="common\models\review.js" />
@@ -57,6 +58,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="client\" />
+    <Folder Include="client\js\" />
+    <Folder Include="client\js\services\" />
     <Folder Include="common\" />
     <Folder Include="common\models\" />
     <Folder Include="server\" />
