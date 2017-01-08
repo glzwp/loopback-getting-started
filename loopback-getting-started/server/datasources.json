@@ -12,5 +12,15 @@
     "name": "mysqlDs",
     "user": "root",
     "connector": "mysql"
+  },
+  "mongoDs": {
+    "host": "104.198.217.66",
+    "port": 27017,
+    "url": "",
+    "database": "getting_started",
+    "password": "wGi1XAJH",
+    "name": "mongoDs",
+    "user": "root",
+    "connector": "mongodb"
   }
 }
