@@ -31,7 +31,14 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="client\js\app.js" />
+    <Compile Include="client\js\controllers\auth.js" />
+    <Compile Include="client\js\controllers\review.js" />
+    <Compile Include="client\js\services\auth.js" />
     <Compile Include="client\js\services\lb-services.js" />
+    <Compile Include="client\vendor\angular-resource.js" />
+    <Compile Include="client\vendor\angular-ui-router.js" />
+    <Compile Include="client\vendor\angular.js" />
     <Compile Include="common\models\coffee-shop.js" />
     <Compile Include="common\models\message.js" />
     <Compile Include="common\models\review.js" />
@@ -41,8 +48,16 @@
     <Compile Include="server\boot\root.js_no_use" />
     <Compile Include="server\boot\routes.js" />
     <Compile Include="server\server.js" />
+    <Content Include="client\css\style.css" />
     <Content Include="client\index.html" />
     <Content Include="client\README.md" />
+    <Content Include="client\views\all-reviews.html" />
+    <Content Include="client\views\forbidden.html" />
+    <Content Include="client\views\login.html" />
+    <Content Include="client\views\my-reviews.html" />
+    <Content Include="client\views\review-form.html" />
+    <Content Include="client\views\sign-up-form.html" />
+    <Content Include="client\views\sign-up-success.html" />
     <Content Include="common\models\coffee-shop.json" />
     <Content Include="common\models\message.json" />
     <Content Include="common\models\review.json" />
@@ -58,17 +73,23 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="client\" />
+    <Folder Include="client\css\" />
     <Folder Include="client\js\" />
+    <Folder Include="client\js\controllers\" />
     <Folder Include="client\js\services\" />
+    <Folder Include="client\vendor\" />
+    <Folder Include="client\views\" />
     <Folder Include="common\" />
     <Folder Include="common\models\" />
     <Folder Include="server\" />
     <Folder Include="server\boot\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
+    <Folder Include="typings\globals\async\" />
     <Folder Include="typings\globals\node\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="typings\globals\async\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
     <TypeScriptCompile Include="typings\index.d.ts" />
   </ItemGroup>
